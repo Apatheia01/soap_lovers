@@ -1,0 +1,166 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+#titulo{
+    font-size: 3rem;
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 10px 15px ;
+}
+
+.imagen {
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    left: 4cm;
+    top: 5px;
+    right: auto;
+    bottom: 5px;
+}
+
+.pagina{
+    width: 800px ;
+    margin: 0 auto;
+    
+}
+
+section article {
+    background-color: rgba(146, 179, 179, 0.651);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 2rem;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: rgba(100, 148, 237, 0.61);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(195, 127, 224, 0.61);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(235, 138, 214, 0.61);
+}
+
+tr:hover {
+    background-color: dimgray;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #364552;
+    padding: 3rem;
+    color: #efefef
+}
+
+.lines a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none ;
+}
+
+.lines a:hover {
+    color: cornflowerblue;
+}
+
+footer section {
+    float: right;
+}
+
+.negocio {
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.negocio:hover {
+    color: cornflowerblue ;
+}
+
+@media (max-width: 767px) {
+    h1, h3, p, ul {
+
+    }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+
+}
+
+@media (min-width: 991px) {
+
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+    header{
+        width: 180%;
+    }
+    h1 {
+        font-size: 9% ;
+        border-radius: 3%;
+    }
+
+    article {
+        width: 75%;
+        border-radius: 40%;
+        }
+
+    img {
+        border-radius: 10%;
+    }
+    footer {
+        width: 155%;
+        border-radius: 4%;
+    }
+    body {
+        margin-left: 3%;
+    }
+    
+
+
+}
+
+/*.margen {
+    background-color: aqua;
+    margin: 15px;
+    padding: 30px 15px;
+    border: solid 1px black;
+}*/
+
+  /*
+        dotted
+        dashed
+        solid
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+        hidden
+    */  
